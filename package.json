@@ -1,0 +1,15 @@
+{
+  "name": "babylon-ts-webpack-example",
+  "scripts": {
+    "build:dev": "webpack --mode development",
+    "build:watch": "webpack --mode development --watch",
+    "build:prod": "webpack --mode production"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.2",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "babylonjs": "^8.11.0"
+  }
+}
